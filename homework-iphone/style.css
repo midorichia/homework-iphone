@@ -1,0 +1,195 @@
+* { box-sizing:border-box; }
+
+html , body{
+    margin: 0 ;
+    padding : 0;
+}
+
+.iphone {
+    position: relative;
+    border-radius: 38px;
+    margin: 20px;
+    width:274px;
+    height: 556px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/r/ef/refurb/iphone6s/refurb-iphone6s-plus-silver?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1476121780367);
+    background-size:700px ;
+    background-repeat: no-repeat;
+    background-position: -280px -53px;
+    background: #DCDCDC
+    
+}
+
+.body{
+     position: absolute;
+     background	:#F5F5F5;
+     border: 1px solid white; 
+     border-radius: 33px;
+     margin: 20px;
+     width: 265px;
+     height: 545px;
+     top: 5px;
+     left: 4px;
+   
+}
+
+
+.camera{
+    position: absolute;
+    background: #000;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    top:50px;
+    left: 115px;
+    z-index: 2
+
+}
+
+.microphone{
+    position: absolute;
+    background: #000;
+    width:6px;
+    height: 6px;
+    border-radius: 50%;
+    top:36px;
+    left: 154px;
+    z-index: 2
+
+}
+
+.screen{
+     position: absolute;
+     background: -webkit-linear-gradient(#F5F5F5,#808080); /* For Safari 5.1 to 6.0 */
+     background: -o-linear-gradient(#F5F5F5,#808080); /* For Opera 11.1 to 12.0 */
+     background: -moz-linear-gradient(#F5F5F5, #808080); /* For Firefox 3.6 to 15 */
+     background: linear-gradient(#F5F5F5, #808080); /* Standard syntax */
+     border:1px solid black;
+     width: 245px;
+     height: 429px;
+     top: 84px;
+     left: 34px;
+     z-index: 2
+
+
+}
+
+.home{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #000;
+    top: 524px;
+    left:140px;
+    background: -webkit-linear-gradient(left top, #808080, 	#DCDCDC,white,#708090); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #808080,	#DCDCDC,white,#708090); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #808080,	#DCDCDC,white,#708090); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #808080, 	#DCDCDC,white,#708090); /* Standard syntax */
+    z-index: 2
+
+}
+
+.home2{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background:white;
+    top: 525px;
+    left:141px;
+    z-index: 2
+
+}
+
+
+
+
+.microphone2{
+    position: absolute;  
+    width:37px;
+    height: 4px;
+    border-radius: 5px;
+    background:black;
+    top: 52px;
+    left:138px;
+
+}
+
+.button1{
+   position: absolute;  
+    width:2px;
+    height: 16px;
+    border-radius: 2px;
+    background: #DCDCDC;
+    top: 88px;
+    left:18px;
+}
+
+.button2{
+   position: absolute;  
+    width:2px;
+    height: 24px;
+    border-radius: 2px;
+    background: #DCDCDC;
+    top: 120px;
+    left:18px;
+}
+
+.button3{
+   position: absolute;  
+    width:2px;
+    height: 24px;
+    border-radius: 2px;
+    background: #DCDCDC;
+    top: 160px;
+    left:18px;
+}
+.button4{
+   position: absolute;  
+    width:2px;
+    height: 33px;
+    border-radius: 2px;
+    background: #DCDCDC;
+    top: 129px;
+    left:293px;
+}
+
+.line1{
+   position: absolute;  
+    width:3px;
+    height: 8px;
+    background: #778899;
+    top: 60px;
+    left:20px;
+    z-index: 4
+}
+
+.line2{
+   position: absolute;  
+    width:3px;
+    height: 8px;
+    background: #778899;
+    top: 530px;
+    left:20px;
+    z-index: 4
+}
+
+.line3{
+   position: absolute;  
+    width:3px;
+    height: 8px;
+    background: #778899;
+    top: 60px;
+    left:290px;
+    z-index: 4
+}
+
+.line4{
+   position: absolute;  
+    width:3px;
+    height: 8px;
+    background: #778899;
+    top: 530px;
+    left:290px;
+    z-index: 4
+}
